@@ -70,4 +70,6 @@ react
 - Nuru Amudi
 - Faith Adline
 - Ivy Ngatia
+-kevin Kamadi
+
 
