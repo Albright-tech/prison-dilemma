@@ -1,0 +1,234 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+      transform: rotate(0deg);
+  }
+
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.login-container,
+.login-form,
+.register-form,
+.register-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container,
+.register-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  min-height: 500px;
+  max-width: 400px;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(75deg, #343436, #838386 48%, #0b0324);
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  margin: 0.5rem;
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0, 5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+/* header{
+display: inline-block;
+} */
+
+button {
+  border: none;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  color: #0f0430;
+}
+
+.setup {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1606750408405-295e25216edd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.link {
+  color: aliceblue;
+}
+
+
+PrisonDilemmaGame {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+PrisonDilemmaGame {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+/* Option styles */
+PrisonDilemmaGame .option {
+  margin: 10px;
+  padding: 15px;
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Example button style */
+PrisonDilemmaGame .option .button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+PrisonDilemmaGame .option .button:hover {
+  background-color: #e02504;
+}
+
+/* Result styles */
+result-container {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00e70c;
+}
+
+/* Example card style for additional information */
+PrisonDilemmaGame .card {
+  background-color: #03b3df;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game-container {
+  background-image: linear-gradient(75deg, #2b2d32, #181819 48%, #09021f);
+  /* background-color: #0b0324; */
+  height: 1000px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(243, 243, 242);
+  text-decoration: underline;
+}
+
+h2 {
+  color: rgb(138, 235, 213);
+  text-decoration: overline;
+}
+
+.p {
+  color: wheat;
+}
+
+.play-button {
+  cursor: pointer;
+  border-radius: 30%;
+  background-image: linear-gradient(75deg, #722282, #c3dde1 48%, #390dc0);
+  padding: 20px;
+  color: #01151b;
+  font-size: medium;
+}
+
+.play-button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(75deg, #1350eb, #080821 48%, #370bc6);
+  color: white;
+}
+
+.choice {
+  color: white;
+  padding: 5px;
+}
+
+.scores-list {
+  color: white;
+  padding: 5px;
+}
+
+.score-item {
+  padding: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+h1 {
+  margin: 0;
+  /* Remove default margin for h1 */
+}
+
+.play-button {
+  margin-left: 10px;
+  /* Adjust the spacing between h1 and the button */
+}
